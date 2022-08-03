@@ -3,7 +3,7 @@ function hola(nombre) {
         setTimeout(function () {
             console.log('Hola '+ nombre);
             resolve(nombre);
-        }, 1000)
+        }, 2000)
     })
 }
 
